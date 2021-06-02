@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+* {
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+
+<script>let year = Number(prompt("Nhập năm dương lịch: "));
+let can = year % 10;
+let chi = year % 12;
+let kqCan = "";
+let kqChi = "";
+switch(can){
+  case 0: kqCan = "Canh";
+  				break;
+  case 1: kqCan = "Tân";
+  				break;
+  case 2: kqCan = "Nhâm";
+  				break;
+  case 3: kqCan = "Qúy";
+  				break;
+  case 4: kqCan = "Giáp";
+  				break;
+  case 5: kqCan = "Ất";
+  				break;
+  case 6: kqCan = "Bính";
+  				break;
+  case 7: kqCan = "Đinh";
+  				break;
+  case 8: kqCan = "Mậu";
+  				break;
+  case 9: kqCan = "Kỷ";
+  				break;
+    
+}
+switch(chi){
+  case 0: kqChi = "Thân";
+  				break;
+  case 1: kqChi = "Dậu";
+  				break;
+  case 2: kqChi = "Tuất";
+  				break;
+  case 3: kqChi = "Hợi";
+  				break;
+  case 4: kqChi = "Tý";
+  				break;
+  case 5: kqChi = "Sửu";
+  				break;
+  case 6: kqCan = "Dần";
+  				break;
+  case 7: kqChi = "Mẹo";
+  				break;
+  case 8: kqChi = "Thìn";
+  				break;
+  case 9: kqChi = "Tỵ";
+  				break;
+  case 10: kqChi = "Ngọ";
+  				break;
+  case 11: kqChi = "Mùi";
+  				break;
+    
+}
+let namAmLich = kqCan + " " + kqChi;
+alert("Năm âm lịch là: "+ namAmLich);
+
+
+</script>
+</body>
+</html>
